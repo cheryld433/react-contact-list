@@ -1,4 +1,4 @@
-# Contact List ⚛️ | [Demo](#)
+# Contact List  🗒 ⚛️ | [Demo](#)
 
 Contact List is a React application that allows users to easily create, edit and remove contacts in realtime.
 
