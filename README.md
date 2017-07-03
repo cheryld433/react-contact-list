@@ -1,4 +1,5 @@
 # Contact List  🗒 ⚛️ | [Demo](#)
+   [![Build Status](https://travis-ci.org/romarioraffington/react-contact-list.svg?branch=master)](https://travis-ci.org/romarioraffington/react-contact-list)
 
 Contact List is a React application that allows users to easily create, edit and remove contacts in realtime.
 
