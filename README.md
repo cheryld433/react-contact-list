@@ -1,6 +1,6 @@
 # Contact List 🗒 ⚛️ | [Demo](#) 
 
-[![Build Status](https://travis-ci.org/romarioraffington/react-contact-list.svg?branch=master)](https://travis-ci.org/romarioraffington/react-contact-list) [![dependencies Status](https://david-dm.org/romarioraffington/react-contact-list.svg)](https://david-dm.org/romarioraffington/react-contact-list.svg) [![Dev Dependencies Status](https://david-dm.org/romarioraffington/react-contact-list/dev-status.svg)](https://david-dm.org/expressjs/express?type=dev)
+[![Build Status](https://travis-ci.org/romarioraffington/react-contact-list.svg?branch=master)](https://travis-ci.org/romarioraffington/react-contact-list) [![Coverage Status](https://coveralls.io/repos/github/romarioraffington/react-contact-list/badge.svg?branch=master)](https://coveralls.io/github/romarioraffington/react-contact-list?branch=master) [![dependencies Status](https://david-dm.org/romarioraffington/react-contact-list.svg)](https://david-dm.org/romarioraffington/react-contact-list.svg) [![Dev Dependencies Status](https://david-dm.org/romarioraffington/react-contact-list/dev-status.svg)](https://david-dm.org/expressjs/express?type=dev)
 
 Contact List is a React application that allows users to easily create, edit and remove contacts in real time.
 

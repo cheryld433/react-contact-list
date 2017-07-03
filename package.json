@@ -13,6 +13,7 @@
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "enzyme": "^2.9.1",
     "faker": "^4.1.0",
     "react-scripts": "1.0.7",
@@ -22,7 +23,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "coverage": "npm test -- --coverage --collectCoverageFrom=src/components/**/*.js --collectCoverageFrom=!src/components/*.js --collectCoverageFrom=!src/components/ImageInput/*.js",
+    "coverage": "npm test -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "eject": "react-scripts eject"
+  }, 
+  "jest": {
+    "collectCoverageFrom": ["src/components/**/*.js", "!src/components/*.js", "!src/components/ImageInput/*.js"] 
   }
 }
