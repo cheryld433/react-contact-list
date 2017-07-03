@@ -1,36 +1,37 @@
-# Contact List  🗒 ⚛️ | [Demo](#)
-   [![Build Status](https://travis-ci.org/romarioraffington/react-contact-list.svg?branch=master)](https://travis-ci.org/romarioraffington/react-contact-list)
+# Contact List 🗒 ⚛️ | [Demo](#) 
 
-Contact List is a React application that allows users to easily create, edit and remove contacts in realtime.
+[![Build Status](https://travis-ci.org/romarioraffington/react-contact-list.svg?branch=master)](https://travis-ci.org/romarioraffington/react-contact-list) [![dependencies Status](https://david-dm.org/romarioraffington/react-contact-list.svg)](https://david-dm.org/romarioraffington/react-contact-list.svg) [![Dev Dependencies Status](https://david-dm.org/romarioraffington/react-contact-list/dev-status.svg)](https://david-dm.org/expressjs/express?type=dev)
+
+Contact List is a React application that allows users to easily create, edit and remove contacts in real time.
+
+[![](.README/react-contact-list.gif)](#)
 
 ## Getting Started
-You can view a live demo over at
-
-To get the frontend running locally:
-
 ```shell
-git clone https://github.com/Microsoft/TypeScript.git
-yarn install #npm install
-yarn start #npm start
+git clone https://github.com/romarioraffington/react-contact-list.git
+yarn install
+yarn start
 ```
-
->### Note: The application is expecting to connect to an API. You can clone the [Bakend API Repo](#) to get up and running quickly.
+ The application is expecting to connect to an API. You can clone the [Bakend API Repo](#) to get up and running quickly.
 
 ## Running Tests
 ```shell
-yarn test #npm test
+yarn test
 ```
 
 ## Running Coverage
-
 ```shell
-yarn coverage #npm coverage
+yarn coverage
 ```
 
-## Backend API
+## Building the Project
+```shell
+yarn build
+```
 
 ## Contributing
+Feel free to submit a pull requests! For specifics on how to contribute to this project, check out the  [contributing file](CONTRIBUTING.md).
 
 ## License
-Contacts is released under the [MIT License](https://opensource.org/licenses/MIT)
+Contacts is released under the [MIT License](LICENSE).
 
