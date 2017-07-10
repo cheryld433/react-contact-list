@@ -30,13 +30,17 @@ class App extends Component {
     });
   };
 
-  editContact(contact) {      
-    this.setState(({ contacts }) => ({
-      contacts: contacts.map(c => (
-        c.id === contact.id ? contact : c
-      ))
-    }));
-    ContactsAPI.update(contact);
+  editContact(contact) { 
+    ContactsAPI.update(contact).then(data => {
+      if (data.error) {
+        return alert(data.error);
+      }
+      this.setState(({ contacts }) => ({
+        contacts: contacts.map(c => (
+          c.id === contact.id ? contact : c
+        ))
+      }));
+    });     
   }
 
   deleteContact = (contact) => {
