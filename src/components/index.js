@@ -19,10 +19,14 @@ class App extends Component {
   }
 
   createContact(contact) {
-    ContactsAPI.create(contact).then(newContact => {
-      this.setState(state => ({
-        contacts: state.contacts.concat(newContact)
-      }));
+    ContactsAPI.create(contact).then(data => {
+      if (data.error) {
+        alert(data.error);
+      } else {
+        this.setState(state => ({
+          contacts: state.contacts.concat(data.contact)
+        }));
+      }
     });
   };
 
