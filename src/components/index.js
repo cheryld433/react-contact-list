@@ -43,10 +43,16 @@ class App extends Component {
   }
 
   deleteContact = (contact) => {
-    this.setState(({ contacts }) => ({
-      contacts: contacts.filter(c => c.id !== contact.id)
-    }));
-    ContactsAPI.remove(contact);
+    ContactsAPI.remove(contact).then(res => {
+      if (res.status === 204) {
+        this.setState(({ contacts }) => ({
+          contacts: contacts.filter(c => c.id !== contact.id)
+        }));
+      } else {
+        console.log(res.body);
+        alert('Oops! Could not delete contact');
+      }
+    });
   }
 
   render() {
